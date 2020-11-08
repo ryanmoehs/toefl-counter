@@ -1,5 +1,5 @@
 # toefl-counter
-TOEFL ITP PBT Score Calculator
+TOEFL ITP PBT Score Counter
 
 (C) 2020 Hanifan Azka and Ryan Muhammad. All rights reserved.
 
@@ -27,4 +27,4 @@ Skor TOEFL mungkin saja berbeda dengan aplikasi yang lain mengingat ini bukan re
 sangat terbuka dengan saran dan kritik.
 
 #Author
-2020 Hanifan Azka dan Ryan Muhammad
+Hanifan Azka dan Ryan Muhammad
