@@ -9,15 +9,24 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <script type="text/javascript">
-      function hasil(){
-      var listeningSection = document.getElementById('listening-section').value;
-      var structureSection = document.getElementById('structure-section').value;
-      var readingSection = document.getElementById('reading-section').value;
+  function hasil() {
+  var listeningSection = document.getElementById("listening-section").value;
+  var structureSection = document.getElementById("structure-section").value;
+  var readingSection = document.getElementById("reading-section").value;
+  
+  var hasil =
+    ((Number(listeningSection) +
+      18 +
+      Number(structureSection) +
+      28 +
+      Number(readingSection) +
+      17) *
+      10) /
+    3;
 
-      var hasil = Number(listeningSection) + 18 + Number(structureSection) + 28 + Number(readingSection) + 17 * 10 / 3;
-      
-      document.getElementById('hasil').innerHTML = hasil;
-  }
+  document.getElementById("hasil").innerHTML = hasil;
+}
+
 </script>
 <body>
   <header class="jumbotron">
